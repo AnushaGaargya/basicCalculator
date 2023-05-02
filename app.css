@@ -1,0 +1,95 @@
+body {
+    background-color:rgb(43, 14, 14);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading{
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.screen{
+    background-color: goldenrod;
+    border: solid whitesmoke 2px;
+    font-size: medium;
+    width: 100%;
+    height: 40px;
+    /* padding:5px; */
+
+}
+
+/* .container{
+    text-align: center;
+} */
+
+input[type='button']:hover {
+    background-color: antiquewhite;  
+}
+
+input[type='button']:active {
+    background-color:lightgreen;  
+}
+
+.operator {
+    background-color: lightcoral;
+    /* padding: 5px; */
+    border: solid whitesmoke 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;   
+}
+
+.number {
+    
+    /* padding: 5px; */
+    border: solid whitesmoke 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;  
+
+}
+
+.clear {
+    background-color: cornflowerblue;
+    /* padding: 5px; */
+    border: solid whitesmoke 2px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer; 
+
+}
+
+.decimal{
+    border: solid whitesmoke 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;  
+
+}
+
+.equal{
+    border: solid whitesmoke 2px;
+    width: 100%;
+    height: 40px;
+    cursor: pointer; 
+} 
+
+.container {
+    background-color: whitesmoke;
+    padding: 15px;
+    color: chocolate;
+    width:40%;
+    display: block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 5px 10px 20px rgb(128, 68, 68);
+}
+
+/* table{
+    width: 40%
+} */
